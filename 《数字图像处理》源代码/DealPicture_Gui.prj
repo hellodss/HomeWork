@@ -1,0 +1,107 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1159933669" file="C:\Users\86178\Desktop\数字图像处理程序\DealPictureGui\DealPicture_Gui.prj" location="C:\Users\86178\Desktop\数字图像处理程序\DealPictureGui" name="DealPicture_Gui" target="target.mlapps" target-name="打包为 App">
+    <param.appname>DealPicture_Gui</param.appname>
+    <param.authnamewatermark>dss</param.authnamewatermark>
+    <param.email>2447455452@qq.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\86178\Desktop\数字图像处理程序</param.output>
+    <param.guid>cefe37b7-b30c-4665-b520-4d1fa9e2f391</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\DealPicture_Gui.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\cameraman.tif</file>
+      <file>${PROJECT_ROOT}\cjh.jpg</file>
+      <file>${PROJECT_ROOT}\lena.png</file>
+      <file>${PROJECT_ROOT}\Logo.jpg</file>
+      <file>${PROJECT_ROOT}\mandril_color.tif</file>
+      <file>${PROJECT_ROOT}\mandril_gray.tif</file>
+      <file>${PROJECT_ROOT}\peppers_color.tif</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\86178\Desktop" name="数字图像处理程序" optional="false">C:\Users\86178\Desktop\数字图像处理程序</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\matlab</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
